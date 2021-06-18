@@ -8,6 +8,7 @@ body {
   --shadow-color-grey: #e8e8e8;
   --text-color-main: #212121;
   --text-color-white: #ffffff;
+  --text-color-grey: #757575;
   --background-color-main: #ffffff;
   --background-color-dark: #2f303a;
   --background-color-gray: #f5f4fa;
@@ -51,9 +52,15 @@ body {
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
   color: var(--text-color-hover);
 }
-.menu-link,
-:current {
-  color: var(--text-color-hover) 3;
+.current-page {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  list-style: none;
+  color: var(--text-color-hover);
   text-shadow: 0px 4px 4px var(--shadow-color-grey);
 }
 
@@ -65,7 +72,7 @@ body {
   letter-spacing: 0.02em;
   text-decoration: none;
   list-style: none;
-  color: var(--text-color);
+  color: var(--text-color-grey);
 }
 .contact-link:hover,
 .contact-link:focus {
@@ -147,7 +154,7 @@ body {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--text-color-grey);
 }
 
 .what-we-do {
@@ -205,7 +212,7 @@ body {
   line-height: 1.19px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--text-color-grey);
 }
 
 .footer {
@@ -264,5 +271,5 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
-  color: var(--text-color);
+  color: var(--text-color-grey);
 }
