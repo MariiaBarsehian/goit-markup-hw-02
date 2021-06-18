@@ -1,3 +1,7 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
 :root {
   --text-color-logo-dark: #000000;
   --text-color-hover: #2196f3;
@@ -10,12 +14,7 @@
   --background-color-blue: #2196f3;
 }
 
-body {
-  font-family: "Roboto", sans-serif;
-  font-style: normal;
-  background-color: var(--background-color-main);
-}
-==========header========== .logo {
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-style: normal;
@@ -38,6 +37,7 @@ body {
   list-style: none;
 }
 .menu-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,6 +58,7 @@ body {
 }
 
 .contact-link {
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -74,7 +75,9 @@ body {
 :current {
   color: var(--text-color-hover);
 }
-==========hero========== .descisions {
+
+.descisions {
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -86,6 +89,7 @@ body {
 }
 
 .order-btm {
+  font-style: normal;
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
@@ -110,6 +114,7 @@ body {
 }
 
 .type-selection-btm {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -127,6 +132,7 @@ body {
   list-style: none;
 }
 .features-item {
+  font-style: normal;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -136,6 +142,7 @@ body {
   color: var(--text-color-main);
 }
 .detailed-features {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -144,6 +151,7 @@ body {
 }
 
 .what-we-do {
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -159,6 +167,7 @@ body {
   background: var(--background-color-gray);
 }
 .our-team {
+  font-style: normal;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -181,6 +190,7 @@ body {
 }
 
 .team-member-name {
+  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -189,6 +199,7 @@ body {
   color: var(--text-color-main);
 }
 .team-member-position {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.19px;
@@ -203,6 +214,7 @@ body {
 }
 .logo-futer {
   font-family: Raleway, sans-serif;
+  font-style: normal;
   font-weight: bold;
   font-size: 26px;
   line-height: 1.19;
@@ -212,6 +224,7 @@ body {
 }
 
 .link-adress {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -224,6 +237,7 @@ body {
   list-style: none;
 }
 .footer-contacts-item {
+  font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -237,6 +251,7 @@ body {
 .works-example-item {
 }
 .works-example-name {
+  font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -244,6 +259,7 @@ body {
   color: var(--text-color-main);
 }
 .works-example-type {
+  font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
