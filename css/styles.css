@@ -243,6 +243,7 @@ body {
 
 .footer-contacts {
   list-style: none;
+  padding: 0;
 }
 .footer-contacts-item {
   font-style: normal;
